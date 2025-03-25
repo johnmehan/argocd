@@ -15,4 +15,4 @@ kind: Kustomization
 namePrefix: kustomize-
 
 resources:
-  - ../../releases/v1.0.0
+  - /releases/base/nginx.yaml
