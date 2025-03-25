@@ -10,10 +10,9 @@
 #  - path: ./overrides/nginx.yaml
 
 
-
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
 namePrefix: kustomize-
 
 resources:
-  - ../../releases/base/nginx.yaml
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
+  - ../../releases/v1.0.0
