@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
   - ../base/nginx.yaml
 
-patchesStrategicMerge:
-  - overrides/nginx.yaml
+patches:
+  - path: ./overrides/nginx.yaml
