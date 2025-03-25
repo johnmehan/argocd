@@ -5,4 +5,4 @@ resources:
   - ../../releases/base  # Adjust path if necessary
 
 patches:
-  - path: ./overrides/nginx.yaml
+  - path: overrides/nginx.yaml
