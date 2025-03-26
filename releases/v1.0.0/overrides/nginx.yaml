@@ -4,7 +4,6 @@ metadata:
   name: nginx
   namespace: argocd
 spec:
-  project: default
   source:
     helm:
       parameters:
