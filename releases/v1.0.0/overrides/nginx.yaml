@@ -8,5 +8,5 @@ spec:
   source:
     helm:
       parameters:
-        - name: image.tag
+        - name: "image.tag"
           value: "1.24.0-debian-12-r25"
