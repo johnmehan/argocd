@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    targetRevision: 19.0.3
+    targetRevision: 19.0.2
     helm:
       parameters:
         - name: service.type
