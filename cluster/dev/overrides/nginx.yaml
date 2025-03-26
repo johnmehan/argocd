@@ -6,17 +6,17 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://charts.bitnami.com/bitnami
-    chart: nginx
-    targetRevision: 13.1.0  # The Helm chart version to use
+#    repoURL: https://charts.bitnami.com/bitnami
+#    chart: nginx
+#    targetRevision: 13.1.0  # The Helm chart version to use
     helm:
       parameters:
         - name: replicaCount
           value: "1"
-  destination:
-    server: https://kubernetes.default.svc
-    namespace: default
-  syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
+#  destination:
+#    server: https://kubernetes.default.svc
+#    namespace: default
+#  syncPolicy:
+#    automated:
+#      prune: true
+#      selfHeal: true
