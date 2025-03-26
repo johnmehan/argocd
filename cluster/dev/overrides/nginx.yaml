@@ -9,4 +9,4 @@ spec:
     helm:
       parameters:
         - name: replicaCount
-          value: "3"
+          value: "4"
