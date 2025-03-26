@@ -8,5 +8,5 @@ spec:
   source:
     helm:
       parameters:
-        - name: service.type
-          value: "ClusterIP"
+        - name: image.tag
+          value: "1.27.4-debian-12-r7"
