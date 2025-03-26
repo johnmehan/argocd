@@ -9,6 +9,4 @@ spec:
     helm:
       parameters:
         - name: replicaCount
-          value: "4"
-        - name: image.tag
-          value: "1.24.0-debian-12-r25"
+          value: "2"
