@@ -6,9 +6,6 @@ metadata:
 spec:
   project: default
   source:
-    helm:
-      valueFiles:
-        - nginx-values.yaml
     repoURL: https://charts.bitnami.com/bitnami
     chart: nginx
     targetRevision: 13.1.0  # The Helm chart version to use

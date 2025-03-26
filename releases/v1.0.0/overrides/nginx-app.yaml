@@ -6,7 +6,4 @@ metadata:
 spec:
   project: default
   source:
-    helm:
-      valueFiles:
-        - ../../releases/base/nginx-values.yaml
-        - ../../releases/v1.0.0/nginx-values.yaml
+#    targetRevision: 13.1.0  # The Helm chart version to use
