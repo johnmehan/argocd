@@ -4,5 +4,8 @@ namePrefix: kustomize-
 resources:
   - ../../releases/v1.0.0  # Adjust path if necessary
 
-patches:
-  - path: ./overrides/nginx.yaml
+#patches:
+#  - path: ./overrides/nginx.yaml
+
+patchesStrategicMerge:
+  - ./overrides/nginx.yaml
