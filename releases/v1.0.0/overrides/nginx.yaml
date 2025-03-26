@@ -4,8 +4,9 @@ metadata:
   name: nginx
   namespace: argocd
 spec:
+  project: default
   source:
     helm:
       parameters:
         - name: image.tag
-          value: "1.27.4-debian-12-r7"
+          value: "1.24.0-debian-12-r25"
