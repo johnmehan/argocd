@@ -5,7 +5,7 @@ resources:
   - ../base
 
 #patches:
-#  - path: ./overrides/nginx.yaml
+#  - path: ./overrides/nginx-app.yaml
 
 patchesStrategicMerge:
-  - ./overrides/nginx.yaml
+  - overrides/nginx-app.yaml
